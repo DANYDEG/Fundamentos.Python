@@ -15,8 +15,11 @@ city=input("Ingresa tu ciudad / pueblo: ")
     Holaa, soy name, tengo age años y vivo en city
 """
 
+
 greeting="Holaa, soy {}, tengo {} años y vivo en {}"
 print(greeting.format(name, age, city))
+
+
 
 
 greeting_2=f"Holaa, soy {name}, tengo {age} años y vivo en {city}"
